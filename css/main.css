@@ -415,18 +415,30 @@ section#align-items-section {
 }
 
 .align-items-stretch-parent-container {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-evenly;
   /* place your code here */
 }
 
 .align-items-baseline-parent-container {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-evenly;
   /* place your code here */
 }
 
 .align-items-flex-start-parent-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
   /* place your code here */
 }
 
 .align-items-flex-end-parent-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
   /* place your code here */
 }
 
@@ -434,95 +446,114 @@ section#align-items-section {
 
 /* flex-wrap */
 section#flex-wrap-section {
+  display: flex;
+  justify-content: center;
   /* place your code here */
 }
 
 .flex-wrap-nowrap-parent-container {
+  display: flex;
   /* place your code here */
   justify-content: space-evenly;
 }
 
 .flex-wrap-wrap-parent-container {
+  display: flex;
   /* place your code here */
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .flex-wrap-wrap-reverse-parent-container {
+  display: flex;
   /* place your code here */
   justify-content: space-evenly;
+  flex-wrap: wrap-reverse;
 }
 
 /* end flex-wrap */
 
 /* align-content */
-section#align-content-section {
+section#align-content-section {display: flex;
+  justify-content: center;
   /* place your code here */
 }
 
 /* Fixed heights have been set in the .wrap-content-parent-container code blocks */
 
-.align-content-center-parent-container {
+.align-content-center-parent-container {display: flex;
   /* place your code here */
   justify-content: space-evenly;
+  align-content: center;
   flex-wrap: wrap;
   height: 250px;
 }
 
-.align-content-space-between-parent-container {
+.align-content-space-between-parent-container {display: flex;
   /* place your code here */
   justify-content: space-evenly;
+  align-content: center;
   flex-wrap: wrap;
   height: 250px;
 }
 
-.align-content-space-around-parent-container {
+.align-content-space-around-parent-container {display: flex;
   /* place your code here */
   justify-content: space-evenly;
+  align-content: center;
   flex-wrap: wrap;
 }
 
-.align-content-space-evenly-parent-container {
+.align-content-space-evenly-parent-container {display: flex;
   /* place your code here */
   justify-content: space-evenly;
+  align-content: center;
   flex-wrap: wrap;
 }
 
-.align-content-stretch-parent-container {
+.align-content-stretch-parent-container {display: flex;
   /* place your code here */
   justify-content: space-evenly;
+  align-content: center;
   flex-wrap: wrap;
 }
 
-.align-content-flex-start-parent-container {
+.align-content-flex-start-parent-container {display: flex;
   /* place your code here */
   justify-content: space-evenly;
+  align-content: center;
   flex-wrap: wrap;
 }
 
-.align-content-flex-end-parent-container {
+.align-content-flex-end-parent-container {display: flex;
   /* place your code here */
   justify-content: space-evenly;
+  align-content: center;
   flex-wrap: wrap;
 }
 
 /* end align-content */
 
 /* gap */
-section#gap-section {
+section#gap-section {display: flex;
+  justify-content: center;
   /* place your code here */
 }
 
-.gap-parent-container {
+.gap-parent-container {display: flex;
+  gap: 20px;
   /* display: flex; */
   flex-wrap: wrap;
 }
 
-.row-gap-parent-container {
+.row-gap-parent-container {display: flex;
+  gap: 20px;
   /* display: flex; */
   flex-wrap: wrap;
 }
 
-.column-gap-parent-container {
+.column-gap-parent-container {display: flex;
+  gap: 20px;
   /* place your code here */
   flex-wrap: wrap;
 }
