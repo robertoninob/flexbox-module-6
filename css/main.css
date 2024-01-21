@@ -561,42 +561,55 @@ section#gap-section {display: flex;
 /* end gap */
 
 /* flex-direction section */
-section#flex-direction-section {
+section#flex-direction-section {display: flex;
+  justify-content: center;
   /* place your code here */
 }
 
 .column-justify-content-center-parent-container {
   /* place your code here */
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
 .column-justify-content-space-between-parent-container {
   /* place your code here */
+  display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
 
 .column-justify-content-space-around-parent-container {
   /* place your code here */
+  display: flex;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
 
 .column-justify-content-space-evenly-parent-container {
   /* place your code here */
+  display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
 }
 
 .column-justify-content-flex-start-parent-container {
   /* place your code here */
+  display: flex;
+  flex-direction: column;
   justify-content: flex-start;
   align-items: center;
 }
 
 .column-justify-content-flex-end-parent-container {
   /* place your code here */
+  display: flex;
+  flex-direction: column;
   justify-content: flex-end;
   align-items: center;
 }
@@ -605,35 +618,49 @@ section#flex-direction-section {
 
 /* flex-flow section */
 section#flex-flow-section {
+  display: flex;
+  justify-content: center;
   /* place your code here */
 }
 
 .flex-flow-row-nowrap-parent-container {
+  display: flex;
+  flex-flow: row nowrap;
   /* place your code here */
   justify-content: space-evenly;
 }
 
 .flex-flow-row-wrap-parent-container {
+  display: flex;
+  flex-flow: row wrap;
   /* place your code here */
   justify-content: space-evenly;
 }
 
 .flex-flow-row-wrap-reverse-parent-container {
+  display: flex;
+  flex-flow: row wrap-reverse;
   /* place your code here */
   justify-content: space-evenly;
 }
 
 .flex-flow-column-nowrap-parent-container {
+  display: flex;
+  flex-flow: column nowrap;
   /* place your code here */
   justify-content: space-evenly;
 }
 
 .flex-flow-column-wrap-parent-container {
+  display: flex;
+  flex-flow: column wrap;
   /* place your code here */
   justify-content: space-evenly;
 }
 
 .flex-flow-column-wrap-reverse-parent-container {
+  display: flex;
+  flex-flow: column wrap-reverse;
   /* place your code here */
   justify-content: space-evenly;
 }
@@ -641,11 +668,13 @@ section#flex-flow-section {
 /* end flex-flow */
 
 /* flex section */
-section#flex-content-section {
+section#flex-content-section {display: flex; justify-content: center;
+  align-items: center;
   /* place your code here */
 }
 
-.flex-row-parent-container {
+.flex-row-parent-container {display: flex; justify-content: center;
+  align-items: center;
   /* Add display: flex; to make this div a parent flex container */
 }
 
@@ -679,68 +708,71 @@ section#flex-content-section {
 /* End flex section */
 
 /* order */
-section#order-section {
+section#order-section {display: flex; justify-content: center;
+  align-items: center;
   /* place your code here */
 }
 
-.order-parent-container {
+.order-parent-container {display: flex; justify-content: center;
+  align-items: center;
   /* Add display: flex; to make this div a parent flex container */
   justify-content: space-around;
 }
 
-.order-child-flex-item-1 {
+.order-child-flex-item-1 {order: 2 flex;
   /* place your code here */
 }
 
-.order-child-flex-item-2 {
+.order-child-flex-item-2 {order: 1 display: flex;
   /* place your code here */
 }
 
-.order-child-flex-item-3 {
+.order-child-flex-item-3 {order: 5 display: flex;
   /* place your code here */
 }
 
-.order-child-flex-item-4 {
+.order-child-flex-item-4 {order: 3 display: flex;
   /* place your code here */
 }
 
-.order-child-flex-item-5 {
+.order-child-flex-item-5 {order: 4 display: flex;
   /* place your code here */
 }
 
 /* end order */
 
 /* align-self */
-section#align-self-section {
+section#align-self-section {display: flex; justify-content: center;
+  align-items: center;
   /* place your code here */
 }
 
-.align-self-parent-container {
+.align-self-parent-container {display: flex;
   /* Add display: flex; to make this div a parent flex container */
   justify-content: space-around;
 }
 
-.align-self-auto-child-flex-item {
+.align-self-auto-child-flex-item {display: flex;
   /* place your code here */
 }
 
-.align-self-flex-start-child-flex-item {
+.align-self-flex-start-child-flex-item {display: flex;
   /* place your code here */
 }
 
-.align-self-flex-end-child-flex-item {
+.align-self-flex-end-child-flex-item {align-self: auto;
   /* place your code here */
 }
 
-.align-self-center-child-flex-item {
+.align-self-center-child-flex-item {display: flex;
   /* place your code here */
 }
 
-.align-self-baseline-child-flex-item {
+.align-self-baseline-child-flex-item {display: flex;
   /* place your code here */
 }
 
-.align-self-stretch-child-flex-item {
+.align-self-stretch-child-flex-item {display: flex;
   /* place your code here */
 }
 
